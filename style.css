@@ -878,13 +878,6 @@ input[type="radio"].visually-hidden {
     z-index: 3;
 }
 
-.rubl-icon {
-    width: 26px;
-    height: 45px;
-    background: url(svg/ruble.svg) no-repeat center;
-    margin-right: 4px;
-}
-
 .popular dl {
     margin: 0;
 }
@@ -903,6 +896,14 @@ input[type="radio"].visually-hidden {
     font-size: 30px;
     line-height: 45px;
     margin: 0;
+}
+
+.icecream-price .rubl-icon {
+    width: 26px;
+    height: 45px;
+    background: url(svg/ruble.svg) no-repeat center;
+    margin-right: 4px;
+    display: inline-block;
 }
 
 .icecream-name span {
@@ -1645,6 +1646,7 @@ footer {
     top: -2px;
     background: url(svg/sort-radio-off.svg) no-repeat;
     opacity: 0.8;
+    display: inline-block;
 }
 
 .sort-radio-button:hover {
@@ -1685,6 +1687,8 @@ footer {
 }
 
 .sort-checkbox-button {
+    margin: 0;
+    display: inline-block;
     width: 20px;
     height: 20px;
     position: absolute;
